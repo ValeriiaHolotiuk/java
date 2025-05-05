@@ -1,0 +1,73 @@
+Advanced Programming (Java)
+Week 1 – Daily Work 
+First Java Program, and some practice problems to get started in java. (To be completed during the week)
+
+Add the following Source code to your project under the src directory.
+
+ 
+Running and debugging your program
+To run and debug Java code, set a breakpoint, then either press F5 on your keyboard or use the Run > Start Debugging menu item. You can also use the Run|Debug CodeLens option in the editor. After the code compiles, you can see all your variables and threads in the Run view.
+Note : Once you have managed to successfully run your first java program inform.
+Basic Addition Program
+Create a new java file with the basic addition code as follows.
+import java.util.Scanner ; 
+public class Addition
+{ 
+	public static void main (String[] args)
+	{ 
+		Scanner input = new Scanner (System.in); 
+		int num1, num2, sum; 
+		System.out.println (“Enter first number:"); 
+		num1 = input.nextInt(); 
+		System.out.println (“Enter second number:");
+		num2 = input.nextInt(); 
+		sum = num1 + num2 ; 
+		System.out.printf ("sum = %d\n", sum); 
+	} 
+}	
+Note: If you can successfully add two numbers today believe me you know half the java 😊.
+Lab Tasks Week 1
+Lab Task 1.1. (The number-word program) Write a java program which inputs a one digit number from the user (i.e. 0-9). The program should then print that number in words, e.g. “Zero” for 0, “One” for 1, “Two” for 2, and so on. If the user does not enter a one-digit number, then program should display an error: “”.
+Lab Task 1.2. Write a program that determines and prints the largest integer among the five given integers (To print an integer, simply use System.out.println(intVarName);
+Lab Task 1.3. (The solution involves a loop) A person invests $1000.0 in a business yielding 5% profit every year. Assuming that all the profit is left on deposit in the account, calculate and print the amount of money in he account at the end of each year for 10 years. 
+Sample output 
+Year 		Amount on deposit
+1	1050.00
+2	1102.50
+3	1157.63
+4	1215.51
+5	1276.28
+6	1340.10
+7	1407.10
+8	1477.46
+9	1551.33
+10	1628.89
+Lab Task 1.4. Test Average problem: (while loop)
+Write a program to read in numbers until the number -999 is encountered. The sum of all number read until this point should be printed out and then the average.
+
+Lab Task 1.5. Write a java class for Simple Calculator Program using a Switch statement. The program must input 2 operands and an operator and perform a specific operation using a switch statement. (Switch Statement)
+ 
+Bonus Problems:
+Lab Task 1.6. (Arrays) Write a java class that inputs 100 integers (from 0 to 9) into an array and prints the frequency of each number in the following manner: 
+Number 	Frequency
+0	5 times
+1	10
+2	10
+3	6
+4	24
+5	5
+6	17
+7	13
+8	8
+9	2
+Lab Task 1.7. write a menu driven java program to convert decimal to binary and vice versa: code to convert an integer from decimal number system(base-10) to binary number system(base-2) and vice versa 😊
+Desired Output:
+If option 1(decimal to binary)
+	2 output:10
+	3 output: 11
+If option 2(binary to decimal)
+	10 output: 2
+	11 output:3
+
+Good luck
+
